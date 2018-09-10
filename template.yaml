@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+    sam-app
+
+    Sample SAM Template for sam-app
+
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+    Function:
+        Timeout: 3
+
+
+Resources:
+
+    PrimingSugarFunction:
+        Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+        Properties:
+            CodeUri: priming_sugar/
+            Handler: app.lambdaHandler
+            Runtime: nodejs8.10
+            Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+                Variables:
+                    PARAM1: VALUE
+            Events:
+                PrimingSugar:
+                    Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+                    Properties:
+                        Path: /calculate
+                        Method: post
+
+Outputs:
+
+    PrimingSugarApi:
+      Description: "API Gateway endpoint URL for Prod stage for Priming Sugar function"
+      Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/hello/"
+
+    PrimingSugarFunction:
+      Description: "Priming Sugar Lambda Function ARN"
+      Value: !GetAtt PrimingSugarFunction.Arn
+
+    PrimingSugarFunctionIamRole:
+      Description: "Implicit IAM Role created for Priming Sugar function"
+      Value: !GetAtt PrimingSugarFunctionRole.Arn
