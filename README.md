@@ -1,5 +1,7 @@
 # sam-app
 
+[![CircleCI](https://circleci.com/gh/tryantwit/priming-sugar-calc.svg?style=svg)](https://circleci.com/gh/tryantwit/priming-sugar-calc)
+
 This is a sample template for sam-app - Below is a brief explanation of what we have generated for you:
 
 ```bash
@@ -99,7 +101,7 @@ After deployment is complete you can run the following command to retrieve the A
 aws cloudformation describe-stacks \
     --stack-name sam-app \
     --query 'Stacks[].Outputs'
-``` 
+```
 
 ## Testing
 
