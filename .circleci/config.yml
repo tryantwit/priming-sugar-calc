@@ -14,8 +14,6 @@ jobs:
     # documented at https://circleci.com/docs/2.0/circleci-images/
     # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/priming_sugar
-
     steps:
       - checkout
 
@@ -26,7 +24,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: npm install
+      - run: cd priming_sugar && npm install
 
       - save_cache:
           paths:
@@ -34,4 +32,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: npm run-script test
+      - run: cd priming_sugar && npm run-script test
