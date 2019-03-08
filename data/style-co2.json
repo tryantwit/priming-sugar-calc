@@ -1,0 +1,686 @@
+{
+  "beer_co2": [
+    {
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "American Amber Ale"
+          },
+          "volumeRange": {
+            "S": "2.3-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "American Barleywine"
+          },
+          "volumeRange": {
+            "S": "1.8-2.5"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "American Brown Ale"
+          },
+          "volumeRange": {
+            "S": "2.0-2.6"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "American IPA"
+          },
+          "volumeRange": {
+            "S": "2.2-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "American Pale Ale"
+          },
+          "volumeRange": {
+            "S": "2.3-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "American Stout"
+          },
+          "volumeRange": {
+            "S": "2.3-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Belgian Blonde Ale"
+          },
+          "volumeRange": {
+            "S": "2.2-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Belgian Dark Strong Ale"
+          },
+          "volumeRange": {
+            "S": "2.3-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Belgian Dubbel"
+          },
+          "volumeRange": {
+            "S": "2.3-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Belgian Golden Strong Ale"
+          },
+          "volumeRange": {
+            "S": "2.3-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Belgian Pale Ale"
+          },
+          "volumeRange": {
+            "S": "2.1-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Belgian Specialty Ale"
+          },
+          "volumeRange": {
+            "S": "2.1-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Belgian Tripel"
+          },
+          "volumeRange": {
+            "S": "2.4-3.0"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Berliner Weiss"
+          },
+          "volumeRange": {
+            "S": "2.4-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Biere de Garde"
+          },
+          "volumeRange": {
+            "S": "2.3-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Blonde Ale"
+          },
+          "volumeRange": {
+            "S": "2.4-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Brown Porter"
+          },
+          "volumeRange": {
+            "S": "1.8-2.5"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Dry Stout"
+          },
+          "volumeRange": {
+            "S": "1.8-2.5"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Dunkelweizen"
+          },
+          "volumeRange": {
+            "S": "2.5-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Dusseldorf Altbier"
+          },
+          "volumeRange": {
+            "S": "2.1-3.1"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "English Barleywine"
+          },
+          "volumeRange": {
+            "S": "1.6-2.5"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "English IPA"
+          },
+          "volumeRange": {
+            "S": "2.2-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Extra Special"
+          },
+          "volumeRange": {
+            "S": "1.5-2.4"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Flanders Brown Ale"
+          },
+          "volumeRange": {
+            "S": "2.2-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Flanders Red Ale"
+          },
+          "volumeRange": {
+            "S": "2.2-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Foreign Extra Stout"
+          },
+          "volumeRange": {
+            "S": "2.0-2.6"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Fruit Lambic"
+          },
+          "volumeRange": {
+            "S": "2.4-3.1"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Gueze"
+          },
+          "volumeRange": {
+            "S": "2.4-3.1"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Imperial IPA"
+          },
+          "volumeRange": {
+            "S": "2.2-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Imperial Stout"
+          },
+          "volumeRange": {
+            "S": "1.8-2.6"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Irish Red Ale"
+          },
+          "volumeRange": {
+            "S": "2.1-2.6"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Kolsch"
+          },
+          "volumeRange": {
+            "S": "2.4-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Mild"
+          },
+          "volumeRange": {
+            "S": "1.3-2.3"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Northern English Brown Ale"
+          },
+          "volumeRange": {
+            "S": "2.2-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Oatmeal Stout"
+          },
+          "volumeRange": {
+            "S": "1.9-2.5"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Old Ale"
+          },
+          "volumeRange": {
+            "S": "1.8-2.5"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Robust Porter"
+          },
+          "volumeRange": {
+            "S": "1.8-2.5"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Roggenbier"
+          },
+          "volumeRange": {
+            "S": "2.5-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Saison"
+          },
+          "volumeRange": {
+            "S": "2.3-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Scottish Export 80/-"
+          },
+          "volumeRange": {
+            "S": "1.5-2.3"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Scottish Heavy 70/-"
+          },
+          "volumeRange": {
+            "S": "1.5-2.3"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Scottish Light 60/-"
+          },
+          "volumeRange": {
+            "S": "1.5-2.3"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Southern English Brown Ale"
+          },
+          "volumeRange": {
+            "S": "1.3-2.3"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Special Bitter"
+          },
+          "volumeRange": {
+            "S": "0.8-2.1"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Standard Bitter"
+          },
+          "volumeRange": {
+            "S": "0.8-2.2"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Straight (Unblended) Lambic"
+          },
+          "volumeRange": {
+            "S": "1.8-2.6"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Strong Scotch Ale"
+          },
+          "volumeRange": {
+            "S": "1.6-2.4"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Sweet Stout"
+          },
+          "volumeRange": {
+            "S": "2.0-2.4"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Weizen/Weissbier"
+          },
+          "volumeRange": {
+            "S": "2.5-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Weizenbock"
+          },
+          "volumeRange": {
+            "S": "2.4-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Bohemian Pilsner"
+          },
+          "volumeRange": {
+            "S": "2.3-2.6"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Classic American Pilsner"
+          },
+          "volumeRange": {
+            "S": "2.5-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Classic Rauchbier"
+          },
+          "volumeRange": {
+            "S": "2.4-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Dark American Lager"
+          },
+          "volumeRange": {
+            "S": "2.5-2.9"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Doppelbock"
+          },
+          "volumeRange": {
+            "S": "2.3-2.6"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Dortmunder Export"
+          },
+          "volumeRange": {
+            "S": "2.4-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Eisbock"
+          },
+          "volumeRange": {
+            "S": "2.2-2.6"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "German Pilsner (Pils)"
+          },
+          "volumeRange": {
+            "2.4-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Lite American Lager"
+          },
+          "volumeRange": {
+            "S": "2.5-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Mailbock/Helles Bock"
+          },
+          "volumeRange": {
+            "S": "2.2-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Munich Dunkel"
+          },
+          "volumeRange": {
+            "S": "2.2-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Munich Helles"
+          },
+          "volumeRange": {
+            "S": "2.3-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Oktoberfest/Marzen"
+          },
+          "volumeRange": {
+            "S": "2.5-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Premium American Lager"
+          },
+          "volumeRange": {
+            "S": "2.5-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Schwarzbier (Black Beer)"
+          },
+          "volumeRange": {
+            "S": "2.2-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Standard American Lager"
+          },
+          "volumeRange": {
+            "S": "2.5-2.8"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Traditional Bock"
+          },
+          "volumeRange": {
+            "S": "2.2-2.7"
+          }
+        }
+      },
+      "PutRequest": {
+        "Item": {
+          "style": {
+            "S": "Vienna Lager"
+          },
+          "volumeRange": {
+            "S": "2.4-2.6"
+          }
+        }
+      }
+    }
+  ]
+}
