@@ -12,7 +12,6 @@ Globals:
 
 
 Resources:
-
     PrimingSugarFunction:
         Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
         Properties:
@@ -28,9 +27,22 @@ Resources:
                     Properties:
                         Path: /calculate
                         Method: post
+    Table1:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: style
+            AttributeType: S
+            AttributeName: volumeRange
+            AttributeType: S
+        KeySchema:
+          - AttributeName: style
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 5
+          WriteCapacityUnits: 5
 
 Outputs:
-
     PrimingSugarApi:
       Description: "API Gateway endpoint URL for Prod stage for Priming Sugar function"
       Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/hello/"
@@ -42,3 +54,7 @@ Outputs:
     PrimingSugarFunctionIamRole:
       Description: "Implicit IAM Role created for Priming Sugar function"
       Value: !GetAtt PrimingSugarFunctionRole.Arn
+
+    PrimingSugarTable:
+      Description: "DynamoDB info for priming sugar app"
+      Value: !GetAtt Table1.Arn
