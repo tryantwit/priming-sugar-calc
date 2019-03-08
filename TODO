@@ -1,0 +1,3 @@
+[] Get react app pulling from dynamodb and sending to lambda
+[] Automate setup of dynamodb
+[] Setup lambda to pull from dynamodb.
